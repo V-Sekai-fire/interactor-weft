@@ -1,4 +1,4 @@
-# Dev-stage release of weft (RFD 0067: dev, then beta, then rc). Test, wrap the BEAM
+# Dev-stage release of weft (RFD66606-0067: dev, then beta, then rc). Test, wrap the BEAM
 # release, package an RPM with fpm, and chunk it with
 # desync. In production the chunk store is SQLite to FoundationDB served over an
 # on-demand H3/WebTransport endpoint; here the chunks back the release assets.

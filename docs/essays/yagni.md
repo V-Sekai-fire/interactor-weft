@@ -1,7 +1,7 @@
 # YAGNI
 
 Reference:
-[RFD 0071, yagni times structure to need](https://v-sekai-multiplayer-fabric.github.io/multiplayer-fabric-manuals/rfd/0071-yagni-times-structure-to-need/index.html).
+[RFD66606-0071, yagni times structure to need](https://v-sekai-multiplayer-fabric.github.io/multiplayer-fabric-manuals/rfd/0071-yagni-times-structure-to-need/index.html).
 
 Most people hear YAGNI as advice about thrift: do not build the expensive thing. That
 reading is wrong, and getting it wrong produces a codebase full of clever deferrals

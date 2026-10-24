@@ -112,7 +112,7 @@ Both kinds: use one name for one concept. Terms are in `Weft` and
 
 ## Git and CI
 
-- main requires a pull request and the merge queue (RFD 0021). No direct or force push to main.
+- main requires a pull request and the merge queue (RFD66606-0021). No direct or force push to main.
 - Commit titles are sentence case. Do not use a conventional-commit prefix. Do not mention an agent.
 - Do not commit binaries or recordings to git. Upload them as CI artifacts.
 - CI is GitHub Actions. `ci.yml` runs the tests on each pull request.
@@ -127,7 +127,7 @@ Both kinds: use one name for one concept. Terms are in `Weft` and
 - Do not add a Windows release target. FoundationDB has no Windows build after 7.2.5, so a
   Windows node cannot run the store plane. Run weft on Windows in a container.
 - The packages install the services enabled. They bundle FoundationDB, so a node is self-contained.
-- `release-native.yml` builds the packages. RFD 0067 sets the dev, beta, and rc stages.
+- `release-native.yml` builds the packages. RFD66606-0067 sets the dev, beta, and rc stages.
 
 ## Tests
 

@@ -9,7 +9,7 @@ the cluster file through a volume, and points `WEFT_FDB_CLUSTER_FILE` at it.
 
 ## The release stages
 
-RFD 0067 sets three stages: dev, beta, and rc. `../.github/workflows/release-native.yml`
+RFD66606-0067 sets three stages: dev, beta, and rc. `../.github/workflows/release-native.yml`
 builds them.
 
 **Built.** The workflow builds the OTP release and the C++ data plane on Linux, and it
